@@ -1,0 +1,16 @@
+.list_noteType{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 13px;
+    border-radius: 9px;
+}
+.search-title{
+    text-align: right;
+}
+.search-title .text-title{
+    width: 80%;
+}
+.search-title input{
+    padding: 5px;
+    border-radius: 9px;
+}

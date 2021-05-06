@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demoCastdy:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>demoCastdy</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="demoCastdy-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="demoCastdy:war exploded" />
+    </root>
+  </artifact>
+</component>

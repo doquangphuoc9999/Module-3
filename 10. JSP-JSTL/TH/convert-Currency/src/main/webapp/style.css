@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+.content{
+    border: 1px solid;
+    padding: 10px;
+    width:100%;
+}
+.form-group input{
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+}

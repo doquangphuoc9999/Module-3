@@ -1,0 +1,23 @@
+.container{
+    border: 1px solid;
+    padding: 29px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.content input{
+    max-width: 50%;
+}
+.title{
+    margin-bottom: 22px;
+}
+.content-add-body textarea{
+    max-width: 50%;
+}
+.submit{
+    justify-content: space-around;
+    display: flex;
+    margin: 23px 46px;
+}

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Create-web-system-time:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Create-web-system-time</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Create-web-system-time-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Create-web-system-time:war exploded" />
+    </root>
+  </artifact>
+</component>

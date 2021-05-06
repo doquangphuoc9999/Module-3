@@ -1,0 +1,25 @@
+form{
+    text-align: center;
+}
+
+.content{
+    line-height: 3;
+    border: 1px solid;
+    margin: 0 auto;
+    width: 295px;
+    height: 189px;
+}
+
+select{
+    width: 55%;
+    position: relative;
+    left: 5%;
+}
+.content .operand span{
+    position: relative;
+    right: 1%;
+}
+.content .first-operand input{
+    position: relative;
+    left: 1%;
+}

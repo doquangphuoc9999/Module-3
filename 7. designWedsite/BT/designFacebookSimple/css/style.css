@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: #fff;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top-left {
+  display: flex;
+  width: 100%;
+}
+.header-top-right .message ul li:hover {
+  background: #e4e6eb;
+}
+.header-top-left .input input {
+  padding: 14px;
+  border-radius: 14px;
+  width: 250px;
+  background-color: #f8f6f6;
+  border: none;
+}
+.header-top-left .input i {
+  transform: translateX(31px);
+}
+
+/* header top center */
+.header-top-center {
+  width: 100%;
+}
+.header-top-center ul {
+  display: flex;
+}
+.header-top-center ul li {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.header-top-center ul a {
+  color: #8f7f7f;
+  padding: 7px 55px 11px 16px;
+}
+.header-top-center ul li a:hover {
+  background-color: #ebe5e5;
+  border-radius: 8px;
+}
+.header-top-center ul li i {
+  font-size: 30px;
+}
+/* header top right */
+.header-top-right {
+  display: flex;
+  width: 74%;
+}
+
+.header-top-right .message ul {
+  display: flex;
+}
+.header-top-right .message ul li {
+  list-style: none;
+  margin: 1px 4px;
+  padding: 8px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #f8f0f0;
+}
+.header-top-right .message ul li i {
+  font-size: 22px;
+  color: black;
+}
+.header-top-right .name-avata {
+  display: flex;
+}
+.header-top-right .name-avata .name-fb {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.header-top-right .name-avata img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 3px 6px;
+}
+
+/* main */
+.main {
+  background: #f0f2f5;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .avatar-main {
+  width: 100%;
+}
+.main .avatar-main ul .img-top-main-avatar {
+  display: flex;
+  align-items: center;
+}
+.main .avatar-main ul li .img-main-top {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.main .avatar-main ul .item-left-icon {
+  display: flex;
+  transform: translateX(10px);
+  line-height: 50px;
+}
+.main-left {
+  width: 36%;
+}
+.main .avatar-main ul .item-left-icon img {
+  margin-left: -15px;
+}
+.item-img-name {
+  display: flex;
+  align-items: center;
+}
+.main-left ul {
+  display: flex;
+  flex-direction: column;
+}
+.name-avatar-main {
+  margin-left: 8px;
+}
+.main-left ul li.item-left-icon {
+  display: flex;
+  align-items: center;
+}
+.main-center {
+  width: 42%;
+}
+.main-center .option-post {
+  padding: 24px;
+  width: 89%;
+  margin-bottom: 17px;
+  background: #fff;
+  border-radius: 10px;
+}
+.main-center .option-post .Post-an-article {
+  display: flex;
+  margin: 0px 0px 17px 0px;
+}
+hr {
+  width: 98%;
+  margin: 0px 0px 17px 0px;
+}
+.main-center .option-post .Post-an-article input {
+  width: 84%;
+  border-radius: 18px;
+}
+.main-center .option-post .Post-an-article img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.main-center .option-post .option-live a {
+  text-decoration: none;
+}
+.main-center .option-post .option-live a .youtobe {
+  color: #f0294a;
+  font-size: 22px;
+}
+.main-center .option-post .option-live a span {
+  color: #4a4c51;
+  font-family: cursive;
+}
+.main-center .option-post .option-live {
+  display: flex;
+  justify-content: center;
+}
+.main-center .option-post .live-stream {
+  margin-right: 15px;
+}
+.main-center .option-post .post-img {
+  margin-right: 15px;
+}
+.main-center .option-post .post-img a i {
+  color: #45bd62;
+  font-size: 23px;
+}
+.main-center .option-post .felling a i {
+  color: #f7b929;
+  font-size: 23px;
+}
+.main-center .post-img-phuoc .work {
+  display: flex;
+}
+.main-center .post-img-phuoc {
+  padding: 20px;
+  background: #fff;
+  width: 89%;
+  border-radius: 12px;
+}
+.main-center .post-img-phuoc .phuoc-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.name-fb {
+  display: flex;
+  align-items: center;
+  margin-left: 11px;
+}
+.post-img-phuoc p {
+  margin-left: 5px;
+}
+.main-left .shortcuts-main ul li {
+  display: flex;
+  margin: 10px;
+}
+.main-left .shortcuts-main span b {
+  margin-left: 10px;
+}
+.main-left .shortcuts-main ul li p {
+  display: flex;
+  align-items: center;
+  transform: translateX(10px);
+}
+.main-right {
+  width: 28%;
+}
+.main-right .contacts {
+  display: flex;
+  justify-content: space-between;
+  line-height: 5;
+}
+.main-right .contacts .search-contacts i {
+  margin-right: 27px;
+}
+.main-right .contacts span {
+  font-size: 19px;
+}
+.main-right ul li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 21px;
+}
+.main-right ul li .span {
+  display: flex;
+  align-items: center;
+  margin-left: 9px;
+}
+.main-right ul li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

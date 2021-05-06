@@ -1,0 +1,15 @@
+package serviec;
+
+import java.util.List;
+
+public interface BaseServiec<T> {
+    List<T> findAll();
+
+    void save(T object);
+
+    void update(T object);
+
+    T findById(int id);
+
+    void delete(int id);
+}
